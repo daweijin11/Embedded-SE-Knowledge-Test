@@ -10,7 +10,7 @@ int main() {
    printf("The Value of M is %d\n", M);
    void Square(int N, int M){
         if (N <= 0 || M <= 0) {
-            printf("invalid value for N and M. N and Must be positive integers");
+            printf("invalid value for N and M. N and M must be positive integers");
             return 0;
         }
         while (N > 0 && M > 0) {
