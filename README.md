@@ -2,7 +2,7 @@
 
 Hi, Chief Technology Officer,
 
-Welcome to my answers for your knowledge test. I would first like to thank you and whoever constructed these problems, as I enjoyed working through them. I found them to be appropriately challenging, and solving the tricky puzzles you provided was ultimately fun. Parts 1 and 2 have been uploaded to this repository, where the c function in problem one and my answers for the role in problem two are posted.
+Welcome to my answers for your knowledge test. I would first like to thank you and whoever constructed these problems, as I enjoyed working through them. I found them to be appropriately challenging, and solving the tricky puzzles you provided was ultimately fun. Parts 1 and 2 have been uploaded to this repository, where the c function in problem one and my answers for the function in problem two are posted.
 
 1)Part one deals with a rectangular piece of paper of dimensions N by M. There are "scissors" that cut the paper to form a series of perfect squares until no more writing is left, optimizing for the most significant square size. The solution of my function "Square" uses the following algorithm:
 
