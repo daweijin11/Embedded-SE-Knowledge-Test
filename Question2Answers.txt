@@ -1,1 +1,0 @@
-Q2 a) The function coverts the input to a unique base 62 numbering system where its values are swapped with the values in the original base 62 numbering system. For example, the value "5" could represent
