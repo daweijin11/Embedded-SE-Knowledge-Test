@@ -44,17 +44,17 @@ swap = {v: k for k, v in tracker.items()}
 swap2 = {v: k for k, v in tracker2.items()}
 
 #Function to perform input to output
-def Input_To_Output(number):
+def Input_To_Output(Input):
 
       #Initialize an empty string to store the base 62 number
       base62 = ""
 
       # Perform the conversion from base 10(input) to the unique numbering system
-      while number > 0:
-            remainder = number % 62
+      while Input > 0:
+            remainder = Input % 62
             base62 = base62_chars[remainder] + base62
-            number //= 62
-      result = ""
+            Input //= 62
+      Output = ""
       for i in range(len(base62)):
-            result += swap2[base62[i]]
-      return result
+            Output += swap2[base62[i]]
+      return Output
