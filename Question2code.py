@@ -7,12 +7,12 @@ Base10 = df['Base10'].tolist()
 Base61 = df['Base61'].tolist()
 
 # Set missing number 5 to 0. 0 can be set as the missing value as no input value divided by 62 gives a remainder of 0.
-
+# Set L to 21/L. This key value pair was found through trial and error when testing for all numbers 0-61
 # Hashmap to store base 62(unique ordering) to base 10 digit conversions
-tracker = {"5":0}
+tracker = {"5":0,"L":21}
 
 # Hashmap to store base 62(unique ordering) to base 62 digit conversions
-tracker2 = {"5":"0"}
+tracker2 = {"5":"0","L":"L"}
 
 # List of all base 62 numbers in order
 base62_chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
